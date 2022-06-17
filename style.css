@@ -1,0 +1,251 @@
+img{
+    border-radius: 100px;
+    margin-left: 20px;
+}
+body{
+    background: rgb(105, 105, 103);
+    width: 100%;
+    height: cover;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    
+}
+.navbar ul{
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid antiquewhite;
+    text-align: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: crimson;
+    border-radius: 55px;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li a:hover{
+    color: crimson ;
+
+}
+
+.navbar ul li:hover{
+    color: aliceblue;
+    background: rgb(187, 214, 187);
+    transition: ease-in 0.5s;
+    
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+
+.navbar ul ul ul{
+    display: none;
+    position: absolute;
+    float: inline-end;
+}
+.headerh1{
+    text-align: center;
+    color: greenyellow;
+    background: black;
+    width: 400px;
+    margin-left: 290px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.headerp{
+    text-indent: 100px;
+    max-width: 100%;
+    color: beige;
+}
+.header2h2{
+    text-align: center;
+    color: rgb(220, 204, 235);
+}
+.imgsection{
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+fieldset{
+    border: 1px solid rgb(209, 149, 138);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: rgb(194, 127, 127);
+    padding: 50px 20px;
+}
+
+legend{
+    background: cornflowerblue;
+    border-radius: 15px;
+    color: rgb(218, 200, 38);
+}
+#text{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+#mail{
+    margin-left: 58px;
+    border-radius: 5px;
+}
+#pass{
+    margin-left: 28px;
+    border-radius: 5px;
+}
+#text:hover{
+   
+    background: darkkhaki;
+    transition: ease-in 0.5s;
+}
+
+#mail:hover{
+    transition: ease-in 0.5s;
+    background: darkkhaki;
+}
+
+
+
+#pass:hover{
+    transition: ease-in 0.5s;
+    background: darkkhaki;
+}
+
+
+
+#submit{
+    border-radius: 5px;
+    background: rgb(216, 135, 88);
+}
+
+
+#reset{
+    border-radius: 5px;
+    background: rgb(92, 199, 89);
+}
+
+
+
+#tex{
+    color: rgb(173, 235, 232);
+    
+}
+#submit:hover{
+    background: chartreuse;
+    color: crimson;
+    transition: ease-in 0.5s;
+}
+#reset:hover{
+    background: crimson;
+    color: white;
+    transition: ease-in 0.5s;
+}
+
+
+
+
+.h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 32px;
+    padding-top: 10px;
+}
+.p3{
+    color: azure;
+    border: 1px solid rgb(77, 90, 90);
+    width: 500px;
+    margin-left: 60px;
+    display: inline-block;
+    margin: ;
+
+    
+}
+.fa-brands{
+    text-align: center;
+    color: aqua;
+    font-size: 28px;
+   
+}
+.facebook{
+    text-align: center;
+    margin-left: 50px;
+    display: block;
+}
+.lastp{
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+}
+form{
+    float: left;
+}
+footer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+form{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.kiron{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    padding-right: 30px;
+    font-size: 35px;
+    color: rgb(226, 226, 116);
+    text-shadow: 1px 1px 5px;
+  
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullform{
+    background: rgb(209, 149, 138);
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+.fullfooter{
+    display: inline-table;
+    background: rgb(77, 90, 90);
+    height: 400px;
+    width: 600px;
+    margin-bottom: 0;
+    padding: 0;
+    border-radius: 10px;
+}
